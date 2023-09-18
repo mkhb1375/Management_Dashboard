@@ -6,7 +6,7 @@ import Graph from './Graph'
 
  function Dashboard() {
 
-     const data = [
+     const graphData = [
          { time: '10am', sales: 100 },
          { time: '11am', sales: 200 },
          { time: '12pm', sales: 150 },
@@ -27,7 +27,7 @@ import Graph from './Graph'
             <div className='mx-auto xl:w-[80vw] '>
             <div className='mt-[6rem] lg:mt-[1.75rem] ml-[7rem] text-[1.2rem] font-[700]'>Dashboard</div>
             <div className='ml-[7rem] mt-[5rem]'><TopAnalytics/></div>
-            <div className=' lg:ml-[20rem] scale-[0.5] lg:scale-[1]'> <Graph data={data} /></div>
+            <div className=' lg:ml-[20rem] scale-[0.5] lg:scale-[1]'> <Graph data={graphData} /></div>
             </div>
         </>
     )
