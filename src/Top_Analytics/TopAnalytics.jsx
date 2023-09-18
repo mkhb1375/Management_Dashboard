@@ -25,7 +25,7 @@ export default function TopAnalytics(){
         },
     ]
     return(
-        <div className="flex">
+        <div className="flex flex-wrap">
             {cards.map((card , index)=>{
                 return <span key={index}>
                 <TopAnalyticsCard url={card.url} number={card.number} detail={card.detail}/>
