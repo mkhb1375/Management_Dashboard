@@ -1,14 +1,14 @@
 import { useState } from 'react'
 import './App.css'
-import Logo from './Nav/Logo'
+import Dashboard from './Dashboard'
 
 function App() {
 
 
   return (
     <>
-      <div className='w-[50px]'> <Logo /></div>
-   
+      
+    <Dashboard/>
     </>
   )
 }

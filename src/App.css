@@ -1,3 +1,40 @@
-body{
+body {
+    background-color: #FAFAFB;
     font-family: 'Nunito', sans-serif;
 }
+
+.icon-hover:hover {
+
+    background: linear-gradient(90deg, #ACA9FF 0%, rgba(172, 169, 255, 0) 91.25%);
+    background-position: -5.15rem 0;
+    background-repeat: no-repeat;
+
+}
+
+.icon-selected {
+    background: linear-gradient(90deg, #ACA9FF 0%, rgba(172, 169, 255, 0) 91.25%);
+        background-position: -2rem 0;
+        background-repeat: no-repeat;
+}
+
+
+.fade-in-out {
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+}
+
+.fade-in-out.show {
+    opacity: 1;
+}
+
+.date-range {
+    background-color: white;
+    font-family: 'Nunito', sans-serif;
+    font-size: 0.7rem;
+    width: 6.5rem;
+    border-radius: 0.25rem;
+    padding: 0.5rem;
+    text-align: center;
+    font-weight: 600;
+}
+

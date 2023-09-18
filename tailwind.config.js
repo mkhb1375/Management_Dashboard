@@ -7,7 +7,11 @@ export default {
   theme: {
     extend: {
       colors: {
-        bgLight: '#FAFAFB'
+        bgLight: '#FAFAFB',
+        primaryBlue: '#605BFF',
+
+        
+
 
         
       },
@@ -15,10 +19,10 @@ export default {
         
         'sm': '640px',
         'md': '768px',
-        'lg': '1024px',
-        'xl': '1280px',
-        '2xl': '1500px',
-        '3xl': '2000px',
+        'lg': '1100px',
+        'xl': '1700px',
+        '2xl': '2000px',
+        
       },
     },
   },
